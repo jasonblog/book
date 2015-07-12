@@ -23,5 +23,5 @@ build:
 clean:
 	rm -fr _book
 
-publish:
+github:
 	@ghp-import _book -p -n
