@@ -19,10 +19,9 @@ serve:
 
 build:
 	@gitbook build
-	@mv _book ../
 
 clean:
 	rm -fr _book
 
-publish:
+github:
 	@ghp-import _book -p -n
